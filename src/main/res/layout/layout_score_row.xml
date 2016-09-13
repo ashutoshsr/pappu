@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/score_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#eee"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/player_name"
+        android:text="Player name"
+        android:gravity="top"
+        android:foregroundGravity="left"
+        android:textAlignment="center"
+
+        style="@style/khiladi"
+        android:layout_above="@+id/paplu" />
+
+
+    <NumberPicker
+        android:id="@+id/each_player_score"
+        android:layout_width="24dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <CheckBox
+        android:id="@+id/winner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Winner"
+        android:layout_alignBottom="@+id/player_name"/>
+
+
+    <CheckBox
+        android:id="@+id/paplu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:text="Paplu"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/papluScore"
+        android:layout_marginEnd="29dp" />
+
+    <NumberPicker
+        android:id="@+id/papluScore"
+        android:layout_width="24dp"
+        android:layout_height="100dp"
+        android:gravity="right"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

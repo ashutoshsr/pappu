@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#eee">
+
+    <TextView
+        android:id="@+id/players_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Player name"
+        style="@style/khiladi" />
+
+    <TextView
+        android:id="@+id/players_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player score"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="58dp" />
+
+</RelativeLayout>

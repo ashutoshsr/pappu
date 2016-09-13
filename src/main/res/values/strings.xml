@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Garage</string>
+    <string name="app_title">corer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_players">Add</string>
+    <string name="name">Name</string>
+    <string name="start">Start</string>
+    <string name="less">Add more</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="new_game">New Game</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_scoring">Scoring</string>
+</resources>
